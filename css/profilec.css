@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+}
+table {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  width: 400px;
+  height: 200px;
+  font-size: 1.5em;
+  text-align: left;
+}
+.textform {
+  width: 180px;
+  height: 20px;
+  font-size: 70%;
+}
+/* プロフィール画像変更の箱とテーブルをまとめたdiv */
+.content {
+  width: auto;
+  height: auto;
+  clear: left;
+  display: inline-block;
+
+}
+/* プロフィール画像変更のdiv */
+.profileimg {
+  float: left;
+  width: 255px;
+  height: 375px;
+}
+.infoc {
+  float: right;
+}
+/* プロフィール画像変更 */
+.pfimg {
+  width: 250px;
+  height: 200px;
+  border: solid 2px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+/* 画像変更ボタン */
+#pfimgc {
+  display:block;
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+}
+/* 変更ボタン */
+#pchange{
+  display:block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+}
